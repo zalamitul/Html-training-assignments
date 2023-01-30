@@ -25,25 +25,31 @@
     box-shadow: 0px 4px 31px #0000000A;
     border: 20px solid #FFFFFF;
 }
+
 .right {
     width: 50%;
 }
+
 .title {
     display: flex;
     justify-content: left;
     align-items: center;
     margin-top: 106px;
 }
+
 .title h1 {
     font-size: 55px;
 }
+
 .title img {
     height: 70px;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 .description {
     width: 500px;
     height: 100px;
@@ -55,12 +61,13 @@ a {
     opacity: 1;
     box-sizing: border-box;
 }
-.description span {
+
+.experts {
+    font: normal normal 900 40px/53px Roboto;
     color: #C8242F;
-    font: normal normal 300 40px/47px Roboto;
     letter-spacing: 0px;
-    color: #3E3E3E;
 }
+
 .login {
     width: 260px;
     height: 33px;
@@ -70,6 +77,7 @@ a {
     color: #3E3E3E;
     margin-top: 31px;
 }
+
 .username,
 .password {
     width: 429px;
@@ -105,6 +113,7 @@ a {
     height: 49px;
     margin-top: 30px;
 }
+
 .btnloginandforgot a {
     text-decoration: none;
     text-align: left;
@@ -112,6 +121,7 @@ a {
     letter-spacing: 0px;
     color: #ADADAD;
 }
+
 .register {
     width: 429px;
     height: 49px;
@@ -121,6 +131,7 @@ a {
     color: #ADADAD;
     margin-top: 23px;
 }
+
 .register a {
     text-align: right;
     text-decoration: none;
@@ -128,6 +139,7 @@ a {
     letter-spacing: 0px;
     color: #C8242F;
 }
+
 /* innerpage html css */
 nav {
     box-sizing: border-box;
@@ -138,26 +150,32 @@ nav {
     justify-content: space-between;
     flex-direction: row;
 }
+
 .nav-left,
 .nav-right {
     align-items: center;
     display: flex;
 }
+
 .dashboard-left-side img {
     width: 19px;
     height: 18px;
     margin-right: 10px;
 }
+
 .dashboard-active {
     background: #FFF3F4 0% 0% no-repeat padding-box;
 }
+
 .menu-bar {
     margin: 29px 34px;
 }
+
 .logo-dashboard {
     width: 142px;
     height: 30px;
 }
+
 input[type="search"] {
     border: none;
     height: 21px;
@@ -166,12 +184,15 @@ input[type="search"] {
     padding-left: 40px;
     margin-left: 48px;
 }
+
 .downward-arrow {
     margin: 36px 43px 36px 14px;
 }
+
 .profile {
     margin: 18px;
 }
+
 .dashboard-left-side {
     box-sizing: border-box;
     width: 242px;
@@ -179,6 +200,7 @@ input[type="search"] {
     font: normal normal normal 16px/21px Roboto;
     background: #FFFFFF 0% 0% no-repeat padding-box;
 }
+
 .dashboard {
     width: 183px;
     height: 43px;
@@ -188,6 +210,7 @@ input[type="search"] {
     padding: 14px 0px 14px 30px;
     border-radius: 5px;
 }
+
 .dashboard-right-side {
     float: left;
     width: 1218px;
@@ -195,18 +218,21 @@ input[type="search"] {
     background: #f8f8f8 0% 0% no-repeat padding-box;
     border-radius: 5px;
 }
+
 .analysis-main {
     padding: 22px 0px;
     margin: 22px 0px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 5px;
 }
+
 .analysis-main input {
     height: 49px;
     border: 1px solid #ADADAD;
     border-radius: 5px;
     margin: 14px 14px 14px 0px;
 }
+
 #country {
     width: 1157px;
     height: 49px;
@@ -214,12 +240,14 @@ input[type="search"] {
     border-radius: 5px;
     margin: 7px 0px;
 }
+
 #text2 {
     width: 1157px;
     height: 130px;
     border: 1px solid #ADADAD;
     border-radius: 5px;
 }
+
 .one-column,
 .two-column,
 .three-column,
@@ -227,10 +255,12 @@ input[type="search"] {
 .other-design {
     padding: 22px 29px;
 }
+
 .error-msg {
     color: red;
     margin: -10px 0px 0px 20px;
 }
+
 .warning-msg {
     text-align: left;
     font: normal normal normal 12px/16px Roboto;
@@ -238,13 +268,15 @@ input[type="search"] {
     color: #ADADAD;
     margin: -10px 0px 0px 20px;
 }
+
 #uploadfile {
     position: relative;
     top: -40px;
     left: 0px;
     display: none;
-    
+
 }
+
 #file {
     border: 1px solid #C8242F;
     border-radius: 18px;
@@ -256,32 +288,40 @@ input[type="search"] {
     background-image: url();
     margin: 10px;
 }
+
 .file-msg {
     font: normal normal normal 12px/16px Roboto;
     color: #ADADAD;
 }
+
 #other-design {
     margin: 30px 20px 20px 20px;
 }
+
 #name {
     padding-left: 20px;
 }
+
 .three-column input,
 .four-column input {
     width: 100%;
 }
+
 #disabled {
     border: 1px dashed #ADADAD;
     border-radius: 5px;
 }
+
 label {
     position: absolute;
     background-color: white;
     margin-left: 10px;
 }
+
 .one-column input {
     width: 1157px;
 }
+
 .radio-button,
 .checkbox {
     display: flex;
@@ -293,6 +333,7 @@ input[type=checkbox] {
     margin-left: 30px;
     accent-color: #C8242F;
 }
+
 #primary {
     width: 124px;
     height: 45px;
@@ -302,6 +343,7 @@ input[type=checkbox] {
     border: none;
     margin: 10px 5px;
 }
+
 #secondary {
     width: 124px;
     height: 45px;
@@ -310,25 +352,30 @@ input[type=checkbox] {
     color: #c6242f;
     border-radius: 22px;
 }
+
 #tabs {
     display: flex;
     text-decoration: none;
     list-style: none;
     border-bottom: 2px solid #ADADAD;
 }
+
 li {
     color: #ADADAD;
     margin: 0px;
     display: block;
     padding: 10px 10px 0px 10px;
 }
+
 .tab-active {
     border-bottom: 2px #c8242f solid;
     color: #C8242F;
 }
+
 .tab-content {
     margin: 30px;
 }
+
 .snackbar div {
     width: 563px;
     height: 44px;
@@ -337,10 +384,12 @@ li {
     margin: 10px;
     align-items: center;
 }
+
 .snackbar img {
     width: 20px;
     height: 20px;
 }
+
 #dropdown {
     border-radius: 5px;
 }
@@ -351,6 +400,7 @@ textarea {
     border: 1px solid #ADADAD;
     border-radius: 5px;
 }
+
 select {
     height: 50px;
     margin-top: 14px;
@@ -358,9 +408,11 @@ select {
     border-radius: 5px;
     width: 100%;
 }
+
 h3 {
     margin: 0px;
 }
+
 .main-container {
     width: 1318px;
     padding: 40px;
@@ -370,6 +422,7 @@ h3 {
     background: #FAFAFA 0% 0% no-repeat padding-box;
     border-radius: 5px;
 }
+
 .statistics-card {
     width: 219px;
     height: 116px;
@@ -380,26 +433,31 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+
 .statistics-card h4 {
     margin: 0px;
 }
+
 .statistics-card img {
     width: 33px;
     height: 33px;
     margin-right: 10px;
 }
+
 #sale {
     margin: 30px;
     background-color: white;
     padding: 23px;
     border-radius: 5px;
 }
+
 #sales-by-country {
     margin-top: 32px;
     background-color: white;
     padding: 23px;
     border-radius: 5px;
 }
+
 #usa {
     border-radius: 50%;
     background: #C8242F;
@@ -407,6 +465,7 @@ h3 {
     height: 18px;
     margin: 5px;
 }
+
 #russia {
     border-radius: 50%;
     background: #F16C20;
@@ -414,6 +473,7 @@ h3 {
     height: 18px;
     margin: 5px;
 }
+
 #canada {
     border-radius: 50%;
     background: #A2B86C;
@@ -421,11 +481,13 @@ h3 {
     height: 18px;
     margin: 5px;
 }
-.dashboard-container{
+
+.dashboard-container {
     width: 1319px;
-    background-color:#FAFAFA;
+    background-color: #FAFAFA;
     padding: 20px;
 }
+
 #india {
     border-radius: 50%;
     background: #EBC844;
@@ -433,25 +495,171 @@ h3 {
     height: 18px;
     margin: 5px;
 }
+
 #invoice-detail {
     margin: 30px;
     background-color: white;
     padding: 23px;
     border-radius: 5px;
 }
+
 #head a {
     text-decoration: none;
     text-transform: capitalize;
     color: #C8242F;
 }
+
 td {
     font: normal normal normal 15px/20px Roboto;
     letter-spacing: 0px;
     color: #3E3E3E;
 }
+
 .invoices-head {
     font: normal normal normal 15px/20px Roboto;
     letter-spacing: 1.5px;
     color: #ADADAD;
     text-transform: uppercase;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .main {
+        /* display: flex; */
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .left {
+        width: 100%;
+        padding: 40px 40px;
+        margin: 0px 0px;
+        box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .left img {
+        width: inherit;
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title {
+        margin-top: 26px;
+    }
+
+    .title img {
+        height: 50px;
+    }
+
+    .description {
+        width: 300px;
+        height: 50px;
+        text-align: center;
+        font: normal normal 200 23px/17px Roboto;
+    }
+
+    .description span {
+        font: normal normal 500 23px/17px Robot
+    }
+
+    .login {
+        text-align: center;
+        font: normal normal normal 20px/23px Roboto;
+        margin-top: 10px;
+    }
+
+    .username,
+    .password {
+        width: 300px;
+        height: 49px;
+        font: normal normal normal 15px/20px Roboto;
+        margin-top: 15px;
+    }
+
+    .loginbtn button {
+        width: 118px;
+        height: 35px;
+    }
+
+    .btnloginandforgot {
+        width: 299px;
+    }
+
+    .register {
+        font: normal normal normal 15px/20px Roboto;
+        margin-top: 7px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    .example {
+        background: blue;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main {
+        width: 100%;
+        box-sizing: border-box;
+        height: 99%;
+    }
+
+    .left {
+        margin: 60px 106px;
+    }
+
+    .left img {
+        width: 450px;
+    }
+
+    .title {
+        margin-top: 96px;
+    }
+
+    .title img {
+        height: 50px;
+    }
+
+    .description {
+        font: normal normal 300 35px/42px Roboto;
+    }
+
+    .login {
+        font: normal normal normal 21px/33px Roboto;
+        margin-top: 20px;
+    }
+
+    .username,
+    .password {
+        font: normal normal normal 15px/20px Roboto;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .loginbtn button {
+        border: none;
+        font: normal normal medium 17px/24px Roboto;
+    }
+
+    .btnloginandforgot {
+        margin-top: 10px;
+    }
+
+    .register {
+        margin-top: 17px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1240px) {}
