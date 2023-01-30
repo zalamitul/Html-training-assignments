@@ -423,6 +423,8 @@ h3 {
 }
 .dashboard-container{
     width: 1319px;
+    background-color:#FAFAFA;
+    padding: 20px;
 }
 #india {
     border-radius: 50%;
