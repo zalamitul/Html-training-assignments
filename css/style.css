@@ -421,6 +421,9 @@ h3 {
     height: 18px;
     margin: 5px;
 }
+.dashboard-container{
+    width: 1319px;
+}
 #india {
     border-radius: 50%;
     background: #EBC844;
