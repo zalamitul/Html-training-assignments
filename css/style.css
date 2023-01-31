@@ -157,17 +157,23 @@ nav {
     display: flex;
 }
 
-.dashboard-left-side img {
+.menu-bar img {
     width: 19px;
     height: 18px;
     margin-right: 10px;
 }
 
-.dashboard-active {
+.menu-bar-item:hover {
+    background: #FFF3F4 0% 0% no-repeat padding-box;
+
+}
+
+.menu-bar-item-active {
     background: #FFF3F4 0% 0% no-repeat padding-box;
 }
 
-.menu-bar {
+
+.menu-bar-logo {
     margin: 29px 34px;
 }
 
@@ -193,7 +199,7 @@ input[type="search"] {
     margin: 18px;
 }
 
-.dashboard-left-side {
+.menu-bar {
     box-sizing: border-box;
     width: 242px;
     height: 1890px;
@@ -201,7 +207,7 @@ input[type="search"] {
     background: #FFFFFF 0% 0% no-repeat padding-box;
 }
 
-.dashboard {
+.menu-bar-item {
     width: 183px;
     height: 43px;
     margin: 25px 29px;
@@ -423,6 +429,10 @@ h3 {
     border-radius: 5px;
 }
 
+.statistics-card p {
+    margin: 0px;
+}
+
 .statistics-card {
     width: 219px;
     height: 116px;
@@ -515,6 +525,36 @@ td {
     color: #3E3E3E;
 }
 
+#pending span{
+    display: block;
+    background-color: #b6b6b6;
+    width: 75px;
+    height: 26px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#paid span{
+    display: block;
+    background-color: #b6b6b6;
+    width: 75px;
+    height: 26px;
+    background: #EBFFEF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#failed span{
+    display: block;
+    background-color: #b6b6b6;
+    width: 75px;
+    height: 26px;
+    background: #FFF5F5 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    text-align: center;
+}
 .invoices-head {
     font: normal normal normal 15px/20px Roboto;
     letter-spacing: 1.5px;
@@ -598,6 +638,10 @@ td {
         font: normal normal normal 15px/20px Roboto;
         margin-top: 7px;
     }
+
+    nav {
+        width: 100%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -659,6 +703,357 @@ td {
     .register {
         margin-top: 17px;
     }
+
+    nav {
+        width: 100%;
+        height: 70px;
+    }
+
+    .menu-bar-logo {
+        margin: 29px 34px;
+    }
+
+    .logo-dashboard {
+        width: 132px;
+        height: 30px;
+    }
+
+    input[type="search"] {
+        background-size: 25px;
+        background-position: 3px;
+        padding-left: 40px;
+        margin-left: 18px;
+    }
+
+    .downward-arrow {
+        margin: 26px 23px 26px 8px;
+    }
+
+    .profile {
+        margin: 10px;
+        width: 35px;
+    }
+
+    .notification {
+        width: 25px;
+        margin-right: 5px;
+    }
+
+    .menu-bar {
+        width: 192px;
+        height: 1890px;
+        font: normal normal normal 14px/21px Roboto;
+    }
+
+    .menu-bar-item {
+        width: 143px;
+        height: 43px;
+        margin: 25px 25px;
+        padding: 14px 0px 14px 15px;
+        border-radius: 5px;
+    }
+
+    .dashboard-container {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .dashboard-cards {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .statistics-card {
+        width: 149px;
+        height: 96px;
+        margin-top: 20px;
+        border-radius: 10px;
+        font: normal normal normal 12px/20px Roboto;
+        align-items: center;
+    }
+
+    .statistics-card h4 {
+        font-size: 18px;
+    }
+
+    .statistics-card p {
+        margin: 0px;
+    }
+
+    .statistics-card img {
+        transform: scale(0.8);
+        align-items: center;
+    }
+
+    /* .dashboard-right-side {
+        float: left;
+        width: 100%x;
+        height: 1749px;
+        background: #f8f8f8 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+    } */
+
+    .analysis-main {
+        padding: 22px 0px;
+        margin: 22px 0px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+    }
+
+    .analysis-main input {
+        height: 49px;
+        border: 1px solid #ADADAD;
+        border-radius: 5px;
+        margin: 14px 14px 14px 0px;
+    }
+
+    #country {
+        width: 1157px;
+        height: 49px;
+        border: 1px solid #ADADAD;
+        border-radius: 5px;
+        margin: 7px 0px;
+    }
+
+
+    #text2 {
+        width: 1157px;
+        height: 130px;
+        border: 1px solid #ADADAD;
+        border-radius: 5px;
+    }
+
+    .one-column,
+    .two-column,
+    .three-column,
+    .four-column,
+    .other-design {
+        padding: 22px 29px;
+    }
+
+    .error-msg {
+        color: red;
+        margin: -10px 0px 0px 20px;
+    }
+
+    .warning-msg {
+        text-align: left;
+        font: normal normal normal 12px/16px Roboto;
+        letter-spacing: 0px;
+        color: #ADADAD;
+        margin: -10px 0px 0px 20px;
+    }
+
+    #uploadfile {
+        position: relative;
+        top: -40px;
+        left: 0px;
+        display: none;
+
+    }
+
+    #file {
+        border: 1px solid #C8242F;
+        border-radius: 18px;
+        width: 124px;
+        height: 36px;
+        background-color: rgb(255, 0, 0);
+        text-decoration: none;
+        color: #FAFAFA;
+        background-image: url();
+        margin: 10px;
+    }
+
+    .file-msg {
+        font: normal normal normal 12px/16px Roboto;
+        color: #ADADAD;
+    }
+
+    #other-design {
+        margin: 30px 20px 20px 20px;
+    }
+
+    #name {
+        padding-left: 20px;
+    }
+
+    .three-column input,
+    .four-column input {
+        width: 100%;
+    }
+
+    #disabled {
+        border: 1px dashed #ADADAD;
+        border-radius: 5px;
+    }
+
+    label {
+        position: absolute;
+        background-color: white;
+        margin-left: 10px;
+    }
+
+    .one-column input {
+        width: 1157px;
+    }
+
+    .radio-button,
+    .checkbox {
+        display: flex;
+        align-items: center;
+    }
+
+    input[type="radio"],
+    input[type=checkbox] {
+        margin-left: 30px;
+        accent-color: #C8242F;
+    }
+
+    #primary {
+        width: 124px;
+        height: 45px;
+        background: #C8242F 0% 0% no-repeat padding-box;
+        border-radius: 23px;
+        color: #FFFFFF;
+        border: none;
+        margin: 10px 5px;
+    }
+
+    #secondary {
+        width: 124px;
+        height: 45px;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        border: 1px solid #c6242f;
+        color: #c6242f;
+        border-radius: 22px;
+    }
+
+    #tabs {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        border-bottom: 2px solid #ADADAD;
+    }
+
+    li {
+        color: #ADADAD;
+        margin: 0px;
+        display: block;
+        padding: 10px 10px 0px 10px;
+    }
+
+    .tab-active {
+        border-bottom: 2px #c8242f solid;
+        color: #C8242F;
+    }
+
+    .tab-content {
+        margin: 30px;
+    }
+
+    .snackbar div {
+        width: 563px;
+        height: 44px;
+        border: 1px solid #FF3535;
+        border-radius: 5px;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .snackbar img {
+        width: 20px;
+        height: 20px;
+    }
+
+    #dropdown {
+        border-radius: 5px;
+    }
+
+    textarea {
+        width: 1157px;
+        height: 130px;
+        border: 1px solid #ADADAD;
+        border-radius: 5px;
+    }
+
+    select {
+        height: 50px;
+        margin-top: 14px;
+        border: 1px solid #ADADAD;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    h3 {
+        margin: 0px;
+    }
+
+    .main-container {
+        width: 1318px;
+        padding: 40px;
+        position: absolute;
+        left: 260px;
+        margin: 0px;
+        background: #FAFAFA 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+    }
+
+
+    /* .statistics-card h4 {
+        margin: 0px;
+    } */
+
+    /* .statistics-card img {
+        width: 33px;
+        height: 33px;
+        margin-right: 10px;
+    } */
+
+    #sale {
+        margin: 15px;
+        padding: 13px;
+    }
+
+    #sale img {
+        width: 600px;
+    }
+
+    #sales-by-country {
+        margin: 14px auto 14px auto;
+        padding: 13px;
+        font: normal normal normal 14px/20px Roboto;
+    }
+
+    #sales-by-country img {
+        width: 200px;
+        margin: auto;
+    }
+
+    #invoice-detail {
+        margin: auto;
+        padding: 13px;
+    }
+
+    #invoice-detail h3 {
+        font-size: 21px;
+        margin: 10px;
+    }
+
+
+    td {
+        font: normal normal normal 13px/20px Roboto;
+        letter-spacing: 0px;
+        color: #3E3E3E;
+    }
+
+    .invoices-head {
+        font: normal normal normal 15px/20px Roboto;
+        letter-spacing: 1.5px;
+        color: #ADADAD;
+        text-transform: uppercase;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
