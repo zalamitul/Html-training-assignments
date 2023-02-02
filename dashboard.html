@@ -14,14 +14,17 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar" onclick="menu()"
+        onclick='()=>{ document.getElementById("menu-bar").style.backgroundColor="red"}'>
         <div class="nav-left">
-            <img class="menu-bar-logo" src="images/menu-bar.svg" alt="">
+            <img id="menubar-icon" class="menu-bar-logo" src="images/menu-bar.svg" alt=""
+                onclick='()=>{ document.getElementById("menu-bar").style.backgroundColor="red"}'>
             <img class="logo-dashboard" src="images/logo.svg" alt="">
             <input type="search" name="search" id="search" placeholder="Search">
         </div>
         <div class="nav-right">
-            <a class="notification" href="notification"><img class="notification" src="images/notification-icon.svg" alt=""></a>
+            <a class="notification" href="notification"><img class="notification" src="images/notification-icon.svg"
+                    alt=""></a>
             <img class="profile" src="images/profile.png" alt="">
             <span class="profile-name">John Doe</span>
             <img class="downward-arrow" src="images/downward-arrow.svg" alt="">
@@ -29,9 +32,10 @@
     </nav>
 
     <div class="d-flex">
-    <aside class="menu-bar">
+        <div id="menu" class="menu-bar">
             <a href="dashboard.html">
-                <div class="menu-bar-item menu-bar-item-active"><img src="images/dashboard-default.svg" alt="">Dashboard</div>
+                <div class="menu-bar-item menu-bar-item-active"><img src="images/dashboard-default.svg" alt="">Dashboard
+                </div>
             </a>
             <a href="innerpage.html">
                 <div class="menu-bar-item"><img src="images/graph-default.svg" alt="">Analysis</div>
@@ -51,7 +55,7 @@
             <a href="">
                 <div class="menu-bar-item"><img src="images/setting-default.svg" alt="">Setting</div>
             </a>
-        </aside>
+        </div>
 
 
         <div class="dashboard-container">
@@ -130,11 +134,12 @@
                     </div>
                 </div>
             </div>
-                 <div id="invoice-detail">
-                    <div class="d-flex justify-content-between" id="head">
-                        <h3>Invoices</h3>
-                        <a href="">view all</a>
-                    </div>
+            <div id="invoice-detail">
+                <div class="d-flex justify-content-between" id="head">
+                    <h3>Invoices</h3>
+                    <a href="">view all</a>
+                </div>
+                <div class="table-div">
                     <table class="table table-responsive">
                         <tr class="invoices-head">
                             <th>Invoice</th>
@@ -217,9 +222,29 @@
                             <td>$10,000</td>
                         </tr>
                     </table>
-                </div> 
+                </div>
+
+            </div>
         </div>
     </div>
 </body>
+
+<script defer>
+    window.onload = () => {
+
+
+        document.getElementById("menu-bar-logo").onclick = function () { myFunction() };
+
+        function myFunction() {
+            document.getElementById("menu-bar").style.backgroundColor = "block";
+        }
+        function menu() {
+            console.log(document.getElementById("menu-bar").style);
+            document.getElementById("menu-bar").style.display = block;
+        }
+
+    }
+
+</script>
 
 </html>
